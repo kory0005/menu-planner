@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Plan Your Daily Menu</h1>
+        <form id="form">
+            <p>Name:</p>
+            <input id="pearsonName" type="text" name="name">
+
+            <p>Day:</p>
+            <select id="selectedDay" name="day" id="day">
+                    <option value="">Select Day</option>
+                    <option>Monday</option>
+                    <option>Tuesday</option>
+                    <option>Wednesday</option>
+                    <option>Thursday</option>
+                    <option>Friday</option>
+                    <option>Saturday</option>
+                    <option>Sunday</option>
+                </select>
+            <input id="addBtn" type="submit" value="Submit">
+            <span id="warning"></span>
+        </form>
+    </div>
+    <div id="list"></div>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
